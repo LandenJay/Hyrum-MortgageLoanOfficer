@@ -471,6 +471,7 @@ resize: none;
     }
     .home-img img{
         width: 53vw;
+        transform: translateY(4rem);
     }
     .about{
         flex-direction: column-reverse;
@@ -486,7 +487,13 @@ resize: none;
     .contact form{
         flex-direction: column;
     }
-    .project-card{
-        transform: translateX(-40px);
+    
+    .projects-box{
+        align-items: center;
+        justify-items:center ;
+    }
+    .service-box{
+        align-items: center;
+        justify-items:center ;
     }
 }
