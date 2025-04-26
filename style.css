@@ -492,8 +492,8 @@ resize: none;
         align-items: center;
         justify-items:center ;
     }
-    .service-box{
-        align-items: center;
-        justify-items:center ;
+    .services-container{
+        align-content: center;
+        justify-content: center;
     }
 }
