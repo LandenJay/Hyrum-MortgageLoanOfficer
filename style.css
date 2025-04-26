@@ -253,7 +253,7 @@ section{
 
 .heading{
     text-align: center;
-    font-size: 7rem;
+    font-size: 5rem;
     margin: 5rem 0;
 }
 
@@ -489,11 +489,13 @@ resize: none;
     }
     
     .projects-box{
-        align-items: center;
-        justify-items:center ;
+        align-content: center;
+        justify-content:center ;
     }
     .services-container{
         align-content: center;
         justify-content: center;
     }
+
+
 }
