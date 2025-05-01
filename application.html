@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color: #555151;">
+
+    <header class="header">
+
+        <a href="#" class="logo"><img src="Hyrum 9.png" height="100px"></a>
+
+        <nav class="navbar">
+
+            <a href="index.html">Home</a>
+
+            <a href="testimonials.html">Testimonials</a>
+
+            <a href="application.html">Application</a>
+
+            <a href="schedule.html">Schedule</a>
+
+
+        </nav>
+
+        
+
+    </header> 
+
+
+
+    <div class="container">
+
+        <form>
+
+            <h1>Application</h1>
+
+            <input type="text" id="firstname" placeholder="First Name" required>
+
+            <input type="text" id="lastname" placeholder="Last Name" required>
+
+            <input type="email" id="email" placeholder="Email" required>
+
+            <input type="text" id="phonenumber" placeholder="Phone Number" required>
+
+            <input type="text" id="creditscore" placeholder="Credit Score" required>
+
+            <input type="text" id="annualincome" placeholder="Annual Income" required>
+
+            <input type="submit" value="Send" id="button">
+
+        </form>
+
+    </div>  
+
+
+
+    <script>
+
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+
+            document.querySelector('.navbar').classList.toggle('active');
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+

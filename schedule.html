@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="icon" type="image/jpg" href="favicon.jpg">
+        <title>Schedule Appointment - Hyrum MLO</title> 
+        <link rel="stylesheet" href="style.css"> </head> 
+        <body> 
+            <!-- Header --> 
+            <header class="header"> 
+                <img src="Hyrum 9.png" height="100px" class="logo"></a> 
+                <nav class="navbar"> 
+                    <a href="index.html">Home</a> 
+                    
+                    <a href="testimonials.html">Testimonials</a> 
+                    
+                    <a href="application.html">Application</a> 
+                    
+                    <a href="schedule.html">Schedule</a> 
+                     </nav> 
+                    </header> 
+                    <!-- Appointment Scheduler Form --> 
+                     <div class="appointment-container"> 
+                        <form class="appointment-form"> 
+                            <h1>Schedule an Appointment</h1> 
+                            <!-- Name --> 
+                             <input type="text" id="name" placeholder="Full Name" required> 
+                             <!-- Email --> 
+                              <input type="email" id="email" placeholder="Email Address" required> 
+                              <!-- Phone --> 
+                               <input type="tel" id="phone" placeholder="Phone Number" required> 
+                               <!-- Appointment Date --> 
+                                <input type="date" id="date" required> 
+                                <!-- Appointment Time --> 
+                                 <input type="time" id="time" min="09:00" max="17:00" step="900" required> 
+                                 <!-- Appointment Type --> 
+                                  <select id="type" required> 
+                                    <option value="" disabled selected>Select Appointment Type</option> 
+                                    <option value="Consultation">Consultation</option> 
+                                    <option value="Loan Application">Loan Application</option> 
+                                    <option value="Credit Score Assistance">Credit Score Assistance</option> 
+                                </select> 
+                                <!-- Submit Button --> 
+                                 <button type="submit" id="appointment-btn">Schedule Appointment</button> 
+                                </form> 
+                            </div> 
+                            <!-- Footer --> 
+                            <footer> 
+                                <p>&copy; 2025 Hyrum MLO. All rights reserved.</p> 
+                            </footer> 
+                            <script> 
+                            document.querySelector('.appointment-form')
+                            .addEventListener('submit', function (e) 
+                            { e.preventDefault(); alert('Appointment scheduled successfully! We will reach out to you soon.'); this.reset(); }); 
+                            </script>
+            
+                        </body> 
+                </html>
